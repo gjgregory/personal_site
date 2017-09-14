@@ -1,0 +1,13 @@
+/*
+ * Customizations to the default bootstrap stylesheet
+ *
+ * Author: Garrett Gregory
+ */
+
+ body {
+  background-color: #fffff0; /* light tan */
+}
+
+.jumbotron {
+  background-color: #66bb6a; /* green */
+}

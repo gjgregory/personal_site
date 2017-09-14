@@ -3,8 +3,6 @@
  * Copyright 2011-2017 The Bootstrap Authors
  * Copyright 2011-2017 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- *
- * Modified by Garrett Gregory
  */
 @media print {
   *,
@@ -95,7 +93,7 @@ body {
   font-weight: normal;
   line-height: 1.5;
   color: #212529;
-  background-color: #fffff0; /* modified */
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus {
@@ -4082,7 +4080,7 @@ tbody.collapse.show {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #66bb6a; /* modified */
+  background-color: #e9ecef;
   border-radius: 0.3rem;
 }
 
