@@ -11,3 +11,27 @@
 .jumbotron {
   background-color: #66bb6a; /* green */
 }
+
+.card {
+  background-color: #fffff0;
+  border: 0px solid #66bb6a; /* green */
+  border-radius: 0.25rem;
+}
+
+.with-margin {
+  margin-bottom: 50px;
+}
+
+.text-green {
+  color: #2f6a32 !important;
+}
+
+.text-green-muted {
+  color: #479e4c !important;
+}
+
+.card-link {
+  position: absolute;
+  top: 0; left: 0;
+  height: 100%; width: 100%;
+}
