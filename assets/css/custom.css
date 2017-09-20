@@ -35,3 +35,13 @@
   top: 0; left: 0;
   height: 100%; width: 100%;
 }
+
+.footer a {
+  color: #70726F;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.footer a:hover {
+  color: #66bb6a;
+}
