@@ -30,6 +30,10 @@
   color: #479e4c !important;
 }
 
+.text-gray {
+  color: #70726F !important;
+}
+
 .card-link {
   position: absolute;
   top: 0; left: 0;
