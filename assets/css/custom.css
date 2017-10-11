@@ -18,13 +18,16 @@
   border-radius: 0.25rem;
 }
 
-.card-img {
-  width: 100%;
+.img-rounded {
   border-radius: calc(0.4rem - 1px);
 }
 
 .with-margin {
   margin-bottom: 50px;
+}
+
+.with-margin-sm {
+  margin-bottom: 25px;
 }
 
 .text-green {
