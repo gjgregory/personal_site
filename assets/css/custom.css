@@ -18,8 +18,16 @@
   border-radius: 0.25rem;
 }
 
+.img-rounded {
+  border-radius: calc(0.4rem - 1px);
+}
+
 .with-margin {
   margin-bottom: 50px;
+}
+
+.with-margin-sm {
+  margin-bottom: 25px;
 }
 
 .text-green {
@@ -28,6 +36,10 @@
 
 .text-green-muted {
   color: #479e4c !important;
+}
+
+.text-gray {
+  color: #616360 !important;
 }
 
 .card-link {
