@@ -10,32 +10,18 @@
         <link rel="stylesheet" href="assets/css/custom.css" />
         <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.css"/>
 
+        <!-- js files -->
+        <script src="assets/js/jquery-3.2.1.min.js"></script>
+        <script src="assets/js/popper.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+
         <!-- title -->
-        <title>Garrett J. Gregory | Photos</title>
+        <title>Garrett J. Gregory | Home</title>
         <link rel="icon" type="image/png" href="assets/images/icon_sm.png">
     </head>
 
     <body>
-        <!-- navbar -->
-        <nav class="navbar navbar-expand-sm navbar-light">
-            <div class="container-fluid">
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#topNavBar">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="topNavBar">
-                    <div class="navbar-nav">
-                        <a class="nav-item nav-link" title="Learn about who I am"
-                                href="index.html">About</a>
-                        <a class="nav-item nav-link active" title="View my photo collections"
-                                href="photos.html">Photos</a>
-                        <a class="nav-item nav-link" title="Check out some of my personal projects"
-                                href="projects.html">Projects</a>
-                        <a class="nav-item nav-link" title="Read my various blog entries"
-                                href="blog.html">Blog</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <div id="loadTop"></div>
 
         <!-- headline jumbotron -->
         <div class="jumbotron jumbotron-fluid text-white text-center">
@@ -45,17 +31,10 @@
             </div>
         </div>
 
-        <!-- contact links -->
-        <footer class="footer">
-            <div class="container text-center">
-                <a href="https://github.com/gjgregory"><i class="fa fa-github-square"></i></a>
-                <a href="https://www.linkedin.com/in/gjgregory"><i class="fa fa-linkedin-square"></i></a>
-            </div>
-        </footer>
+        <div id="loadBottom"></div>
 
 
-        <script src="assets/js/jquery-3.2.1.min.js"></script>
-        <script src="assets/js/popper.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
+        <script>$(function(){$("#loadTop").load("static/top.html");});</script>
+        <script>$(function(){$("#loadBottom").load("static/bottom.html");});</script>
     </body>
 </html>
