@@ -19,7 +19,7 @@
         <script src="projects/Space_Shooter/TemplateData/UnityProgress.js"></script>
         <script src="projects/Space_Shooter/Build/UnityLoader.js"></script>
         <script>
-          var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Space_Shooter.json", {onProgress: UnityProgress});
+          var gameInstance = UnityLoader.instantiate("gameContainer", "projects/Space_Shooter/Build/Space_Shooter.json", {onProgress: UnityProgress});
         </script>
 
         <!-- title -->
@@ -49,7 +49,6 @@
           <div class="footer">
             <div class="webgl-logo"></div>
             <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-            <div class="title">Space Shooter</div>
           </div>
         </div>
 
