@@ -14,6 +14,8 @@
         <script src="assets/js/jquery-3.2.1.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
+        <script src="projects/Space_Shooter/TemplateData/UnityProgress.js"></script>
+        <script src="projects/Space_Shooter/Build/UnityLoader.js"></script>
 
         <!-- title -->
         <title>Garrett J. Gregory | Projects</title>
@@ -31,9 +33,27 @@
             </div>
         </div>
 
+        <div class="container text-gray">
+            <p>Disclaimer: The following is simply the end product of a tutorial I followed while
+                learning to use the Unity Editor. I'm only temporarily hosting it here as a test.
+            </p>
+        </div>
+
+        <div class="webgl-content">
+          <div id="gameContainer" style="width: 600px; height: 900px"></div>
+          <div class="footer">
+            <div class="webgl-logo"></div>
+            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
+            <div class="title">Space Shooter</div>
+          </div>
+        </div>
+
         <div id="loadBottom"></div>
 
 
+        <script>
+          var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Space_Shooter.json", {onProgress: UnityProgress});
+        </script>
         <script>$(function(){$("#loadTop").load("static/top.html");});</script>
         <script>$(function(){$("#loadBottom").load("static/bottom.html");});</script>
     </body>
