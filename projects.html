@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- stylesheets -->
+        <link rel="shortcut icon" href="projects/Space_Shooter/TemplateData/favicon.ico">
+        <link rel="stylesheet" href="projects/Space_Shooter/TemplateData/style.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/custom.css" />
         <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.css"/>
@@ -16,6 +18,9 @@
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="projects/Space_Shooter/TemplateData/UnityProgress.js"></script>
         <script src="projects/Space_Shooter/Build/UnityLoader.js"></script>
+        <script>
+          var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Space_Shooter.json", {onProgress: UnityProgress});
+        </script>
 
         <!-- title -->
         <title>Garrett J. Gregory | Projects</title>
@@ -51,9 +56,6 @@
         <div id="loadBottom"></div>
 
 
-        <script>
-          var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Space_Shooter.json", {onProgress: UnityProgress});
-        </script>
         <script>$(function(){$("#loadTop").load("static/top.html");});</script>
         <script>$(function(){$("#loadBottom").load("static/bottom.html");});</script>
     </body>
