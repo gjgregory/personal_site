@@ -6,8 +6,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
         <!-- stylesheets -->
-        <link rel="shortcut icon" href="projects/Space_Shooter/TemplateData/favicon.ico">
-        <link rel="stylesheet" href="projects/Space_Shooter/TemplateData/style.css">
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/custom.css" />
         <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.css"/>
@@ -16,11 +14,6 @@
         <script src="assets/js/jquery-3.2.1.min.js"></script>
         <script src="assets/js/popper.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
-        <script src="projects/Space_Shooter/TemplateData/UnityProgress.js"></script>
-        <script src="projects/Space_Shooter/Build/UnityLoader.js"></script>
-        <script>
-          var gameInstance = UnityLoader.instantiate("gameContainer", "projects/Space_Shooter/Build/Space_Shooter.json", {onProgress: UnityProgress});
-        </script>
 
         <!-- title -->
         <title>Garrett J. Gregory | Projects</title>
@@ -38,18 +31,12 @@
             </div>
         </div>
 
-        <div class="container text-gray">
+        <div class="container text-gray text-center">
             <p>Disclaimer: The following is simply the end product of a tutorial I followed while
-                learning to use the Unity Editor. I'm only temporarily hosting it here as a test.
+                learning to use the Unity 3D Editor. I'm only temporarily hosting it here as a test.
             </p>
-        </div>
-
-        <div class="webgl-content">
-          <div id="gameContainer" style="width: 600px; height: 900px"></div>
-          <div class="footer">
-            <div class="webgl-logo"></div>
-            <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-          </div>
+            <a class="btn btn-green" title="Wanna play a game?" href="projects/Space_Shooter/game">Play Space Shooter</a>
+            <p></p>
         </div>
 
         <div id="loadBottom"></div>
